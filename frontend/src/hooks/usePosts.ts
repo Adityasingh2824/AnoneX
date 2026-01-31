@@ -13,6 +13,7 @@ interface UsePostsOptions {
 interface CreatePostInput {
   content: string
   isPublic?: boolean
+  privateKey: string
 }
 
 // Mock posts for development

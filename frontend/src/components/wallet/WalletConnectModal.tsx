@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Wallet, Shield, Zap, Lock, ExternalLink, AlertCircle, Info, CheckCircle2 } from 'lucide-react'
 import { Modal } from '../common/Modal'
