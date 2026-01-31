@@ -94,6 +94,37 @@ VITE_IPFS_GATEWAY=https://ipfs.io/ipfs/
 
 ---
 
+## 🌐 Deployment
+
+### GitHub
+
+The project is hosted at **https://github.com/Adityasingh2824/AnoneX**. To push updates:
+
+```bash
+git add -A
+git commit -m "Your message"
+git push origin main
+```
+
+### Vercel (Frontend)
+
+1. **Connect the repo**
+   - Go to [vercel.com](https://vercel.com) and sign in (use “Continue with GitHub”).
+   - Click **Add New…** → **Project**.
+   - Import **Adityasingh2824/AnoneX** from GitHub.
+
+2. **Configure the build** (monorepo)
+   - **Root Directory:** Leave as `.` (repo root). The repo’s `vercel.json` is set to build the frontend and use `frontend/dist` as the output.
+   - Or set **Root Directory** to `frontend` and leave **Build Command** and **Output Directory** as default (Vite will be auto-detected).
+
+3. **Environment variables** (optional)
+   - In the Vercel project → **Settings** → **Environment Variables**, add any `VITE_*` vars your app needs (e.g. `VITE_ALEO_NETWORK`, `VITE_ALEO_RPC_URL`, `VITE_IPFS_GATEWAY`).
+
+4. **Deploy**
+   - Click **Deploy**. Every push to `main` will trigger a new deployment.
+
+---
+
 ## 📁 Project Structure
 
 ```
