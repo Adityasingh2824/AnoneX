@@ -1,0 +1,6 @@
+{
+  "program": "anonex_reaction.aleo",
+  "version": "0.1.0",
+  "description": "AnoneX Reaction Module - Handles upvotes and reactions with double-vote prevention",
+  "license": "MIT"
+}

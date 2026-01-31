@@ -1,0 +1,6 @@
+{
+  "program": "anonex_identity.aleo",
+  "version": "0.1.0",
+  "description": "AnoneX Identity Module - Pseudonym generation and zPass integration",
+  "license": "MIT"
+}

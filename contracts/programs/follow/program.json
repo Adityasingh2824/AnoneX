@@ -1,0 +1,6 @@
+{
+  "program": "anonex_follow.aleo",
+  "version": "0.1.0",
+  "description": "AnoneX Follow Module - Anonymous follow/subscription system",
+  "license": "MIT"
+}

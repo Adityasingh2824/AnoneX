@@ -1,0 +1,33 @@
+{
+  "name": "anonex",
+  "version": "0.1.0",
+  "description": "Privacy-First Anonymous Social Platform on Aleo",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=frontend",
+    "build": "npm run build --workspace=frontend",
+    "preview": "npm run preview --workspace=frontend",
+    "test": "npm run test --workspace=frontend",
+    "test:contracts": "cd contracts && leo test",
+    "build:contracts": "cd contracts && leo build",
+    "deploy:contracts": "node scripts/deploy.js",
+    "lint": "npm run lint --workspace=frontend",
+    "clean": "rimraf node_modules frontend/node_modules contracts/build"
+  },
+  "keywords": [
+    "aleo",
+    "privacy",
+    "social-network",
+    "zero-knowledge",
+    "blockchain",
+    "anonymous"
+  ],
+  "author": "AnoneX Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "program": "anonex_post.aleo",
+  "version": "0.1.0",
+  "description": "AnoneX Post Module - Manages anonymous post publishing, editing, and deletion",
+  "license": "MIT"
+}

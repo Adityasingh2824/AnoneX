@@ -1,0 +1,6 @@
+{
+  "program": "anonex_group.aleo",
+  "version": "0.1.0",
+  "description": "AnoneX Group Module - Private group/channel management with ZK membership proofs",
+  "license": "MIT"
+}
